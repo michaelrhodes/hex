@@ -15,14 +15,8 @@ var decode = require('hex/decode')
 encode([255, 128, 255])
 > 'ff80ff'
 
-encode(new Uint8Array([255, 128, 255]))
-> 'ff80ff'
-
-encode(new Uint8Array([255, 128, 255]).buffer)
-> 'ff80ff'
-
 decode('ff80ff')
-> Uint8Array([255, 128, 255])
+> [255, 128, 255]
 ```
 
 ## obey
