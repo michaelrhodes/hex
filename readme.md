@@ -4,7 +4,7 @@
 
 ## install
 ```sh
-npm install michaelrhodes/hex#1.0.0
+npm install michaelrhodes/hex#2.0.0
 ```
 
 ## use
